@@ -36,18 +36,11 @@ public class JavaQuest3 {
         break;
       case 2:
         MonthOfName = "February";
-        if (year%4 == 0) {
-          if(year%100 == 0){
-            if(year%400 == 0){
+        if (year%4 == 0 && year%100 != 0 || year%400 == 0) {
               number_Of_DaysInMonth = 29;
             }else{
               number_Of_DaysInMonth = 28;
             }
-              
-          }else{
-            number_Of_DaysInMonth = 29;
-          }
-        }
         break;
       case 3:
         MonthOfName = "March";

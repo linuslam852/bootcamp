@@ -40,44 +40,24 @@ public class JavaQuest2 {
     int year1 = 2009;
     // Program a condition to check if it is a leap year.
     // But should NOT print anything.
-    if (year1%4 == 0) {
-      if(year1%100 == 0){
-        if(year1%400 == 0)
-          System.out.println("2009 is a leap year.");
-      }else{
-        System.out.println("2009 is a leap year.");
-      }
+    if (year1%4 == 0 && year1%100 != 0 || year1%400 == 0) {
+      System.out.println("2009 is a leap year.");
     }
 
     int year2 = 2020;
     // same as the above, but it will print out.
-    if (year2%4 == 0) {
-      if(year2%100 == 0){
-        if(year2%400 == 0)
-          System.out.println("2020 is a leap year.");
-      }else{
-        System.out.println("2020 is a leap year.");
-      }
+    if (year2%4 == 0 && year2%100 != 0 || year2%400 == 0) {
+      System.out.println("2020 is a leap year.");
     }
     
     int year3 = 2400;
-    if (year3%4 == 0) {
-      if(year3%100 == 0){
-        if(year3%400 == 0)
-          System.out.println("2400 is a leap year.");
-      }else{
-        System.out.println("2400 is a leap year.");
-      }
+    if (year3%4 == 0 && year3%100 != 0 || year3%400 == 0) {
+      System.out.println("2400 is a leap year.");
     }
     // same as the above, but it will print out.
     int year5 = 2100;
-    if (year5%4 == 0) {
-      if(year5%100 == 0){
-        if(year5%400 == 0)
-          System.out.println("2100 is a leap year.");
-      }else{
-        System.out.println("2100 is a leap year.");
-      }
+    if (year5%4 == 0 && year5%100 != 0 || year5%400 == 0) {
+      System.out.println("2100 is a leap year.");
     }
     // same as the above, but it will NOT print out.
   }
