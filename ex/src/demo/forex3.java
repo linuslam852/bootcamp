@@ -1,3 +1,4 @@
+package demo;
 public class forex3 {
   public static void main(String arg[]){
     String str = "abc pol ijk def xyz";

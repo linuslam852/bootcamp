@@ -1,3 +1,4 @@
+package demo;
 public class forex {
     public static void main(String[] args) throws Exception {
       int sum = 0;

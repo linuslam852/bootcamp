@@ -1,3 +1,4 @@
+package ex;
 
 import java.util.Scanner;
 

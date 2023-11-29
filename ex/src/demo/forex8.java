@@ -1,3 +1,4 @@
+package demo;
 public class forex8 {
   public static void main(String[] args) {
     int space = 2;

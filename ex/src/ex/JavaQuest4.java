@@ -1,3 +1,4 @@
+package ex;
 public class JavaQuest4 {
   /**
    * Exercise: Print 10 numbers: they must be even and > 0, and divisible by 3
@@ -22,8 +23,8 @@ public class JavaQuest4 {
     // 3. > 0
     int cnt = 0;
     for (int i = 0; i < 100; i++) { // You cannot change this line
-      if(i%2 == 0 && i > 0 && cnt <10){
-        System.out.println(i*3);
+      if(i%2 == 0 &&  i%3 == 0 && i > 0 && cnt <10){
+        System.out.println(i);
         cnt++;
       }
     }
