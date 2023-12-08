@@ -1,4 +1,3 @@
-package demo;
 public class forex6 {
   public static void main(String[] args) {
     String str = "abcdefghijk";

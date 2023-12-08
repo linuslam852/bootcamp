@@ -1,5 +1,3 @@
-package demo;
-
 public class foreach {
   public static void main(String[] args) {
     Integer[] integers = new Integer[]{100,-30,20};

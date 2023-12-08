@@ -1,4 +1,4 @@
-package demo;
+
 public class demo8 {
   public static void main(String[] args) {
     Long l1 = 10L;

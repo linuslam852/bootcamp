@@ -1,4 +1,3 @@
-package demo;
 
 public class demoMethod {
   public static void main(String[] args) {
